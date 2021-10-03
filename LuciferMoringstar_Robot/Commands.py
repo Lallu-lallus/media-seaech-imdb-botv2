@@ -329,7 +329,7 @@ async def delete(bot, message):
     if result.deleted_count:
         await msg.edit('File is successfully deleted from database')
     else:
-        await msg.edit('File not found in database')
+        await msg.edit('𝗧𝗛𝗔𝗔𝗡𝗞𝗔𝗟 𝗣𝗔𝗥𝗔𝗡𝗝𝗔 𝗙𝗜𝗟𝗘 𝗘𝗡𝗜𝗞𝗞𝗨 𝗞𝗔𝗡𝗗𝗘𝗧𝗛𝗔𝗡 𝗔𝗬𝗜𝗟𝗟𝗔 𝗦𝗢𝗥𝗥𝗬. 𝗚𝗢𝗢𝗚𝗟𝗜𝗟 𝗣𝗢𝗜𝗜 𝗖𝗢𝗥𝗥𝗘𝗖𝗧 𝗦𝗣𝗘𝗟𝗟𝗜𝗡𝗚 𝗡𝗢𝗞𝗞𝗜𝗬𝗜𝗧𝗧𝗨 𝗜𝗩𝗔𝗗𝗘 𝗩𝗔𝗡𝗡𝗨 𝗧𝗬𝗣𝗘 𝗖𝗛𝗘𝗬𝗬𝗨. 𝗠𝗢𝗩𝗜𝗘 𝗥𝗘𝗟𝗘𝗔𝗦𝗘 𝗔𝗬𝗢𝗡𝗡𝗨𝗠 𝗞𝗢𝗢𝗗𝗜 𝗡𝗢𝗞𝗞𝗔𝗡𝗘')
 @Client.on_message(filters.command('about'))
 async def bot_info(bot, message):
     buttons = [
